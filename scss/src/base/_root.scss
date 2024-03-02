@@ -1,0 +1,33 @@
+:root {
+    --dse-body-text-color: #{$dark};
+    --dse-body-bg-color: #{$white};
+
+    --dse-btn-primary-color: #{$white};
+    --dse-btn-primary-bg: #{$green};
+    --dse-btn-primary-bg-hover: #{$green-light};
+
+    --dse-form-color: #{$dark};
+    --dse-form-bg: #{$white};
+    --dse-form-error-color: #{$red};
+
+    --dse-app-bar-primary-color: #{$white};
+    --dse-app-bar-primary-bg: #{$violet};
+    --dse-app-bar-secondary-color: #{$dark};
+    --dse-app-bar-secondary-bg: #{$white};
+    --dse-app-bar-elevation: #{$gray};
+
+    --dse-floating-btn-primary-color: #{$white};
+    --dse-floating-btn-primary: #{$green};
+    --dse-floating-btn-elevation: #{$gray};
+
+    --dse-body-font-size: #{$fs-sm};
+    --dse-body-font-weight: #{$fw-normal};
+
+    --dse-h1-font-size: #{$h-1};
+    --dse-h2-font-size: #{$h-2};
+    --dse-h3-font-size: #{$h-3};
+
+    --dse-h1-text-weight: #{$fw-black};
+    --dse-h2-text-weight: #{$fw-semibold};
+    --dse-h3-text-weight: #{$fw-bold};
+}

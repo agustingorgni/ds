@@ -1,0 +1,48 @@
+
+/*=============================================
+=            Colors                           =
+=============================================*/
+
+/**
+ * This file defines the actual colors that will be used for styling.
+ */
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+$body-text-color: var(--dse-body-text-color, $dark) !default; /* Se define una propiedad CSS con un valor predeterminado, para que no entre en conflicto con otros paquetes */
+$body-bg-color: var(--dse-body-bg-color, $white);
+
+
+/*=============================================
+=            Buttons                          =
+=============================================*/
+$btn-primary-color: var(--dse-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dse-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $green-light) !default;
+
+
+/*=============================================
+=            Forms                            =
+=============================================*/
+$form-color: var(--dse-form-color, $dark) !default;
+$form-bg: var(--dse-form-bg, $white) !default;
+$form-error-color: var(--dse-form-error-color, $red) !default;
+
+
+/*=============================================
+=            App bar                          =
+=============================================*/
+$app-bar-primary-color: var(--dse-app-bar-primary-color, $white) !default;
+$app-bar-primary-bg: var(--dse-app-bar-primary-bg, $violet) !default;
+$app-bar-secondary-color: var(--dse-app-bar-secondary-color, $dark) !default;
+$app-bar-secondary-bg: var(--dse-app-bar-secondary-bg, $white) !default;
+$app-bar-elevation: var(--dse-app-bar-elevation, $gray) !default;
+
+
+/*=============================================
+=            Floating action button           =
+=============================================*/
+$floating-btn-primary-color: var(--dse-floating-btn-primary-color, $white) !default;
+$floating-btn-primary-bg: var(--dse-floating-btn-primary, $green) !default;
+$floating-btn-primary-elevation: var(--dse-floating-btn-elevation, $gray) !default;
