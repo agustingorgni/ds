@@ -1,4 +1,3 @@
-
 /*=============================================
 =            Colors                           =
 =============================================*/
@@ -10,9 +9,10 @@
 /*=============================================
 =            Global text colors               =
 =============================================*/
-$body-text-color: var(--dse-body-text-color, $dark) !default; /* Se define una propiedad CSS con un valor predeterminado, para que no entre en conflicto con otros paquetes */
+$body-text-color: var(
+    --dse-body-text-color, $dark
+) !default; /* Se define una propiedad CSS con un valor predeterminado, para que no entre en conflicto con otros paquetes */
 $body-bg-color: var(--dse-body-bg-color, $white);
-
 
 /*=============================================
 =            Buttons                          =
