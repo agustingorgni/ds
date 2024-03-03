@@ -13,7 +13,7 @@
     "build": "yarn lerna run build"
   },
   "workspaces": {
-    "packages": ["packages/*"],
+    "packages": ["packages/*", "playgrounds/*"],
     "nohoist": ["**/normalize-scss"]
   }
 }
